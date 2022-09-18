@@ -1,1 +1,1 @@
-# qa-automation-challenge-
+# QA Automation Challenge
