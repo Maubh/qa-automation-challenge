@@ -1,15 +1,15 @@
 # QA Automation Challenge
 ### **Test Scenarios**
 
-I decide to separate the scenarios between positive and negative scenarios and they are described in the this path. I started the creation simulating the happy path so that helps me to understand how the system should work and figure it out the possible negative scenarios. 
+I decide to separate the scenarios between positive and negative scenarios and they are available [here](/cypress/integration). I started the creation by simulating the happy path so that helps me to understand how the system should work and discover the possible negative scenarios. 
 
 ### **Test Data**
 
-For the scenarios created, it was used the U.S. average values as a reference. All the values we used were false values so that we can simulate the results. It was used types of test data like valid test, invalid test and absend data.
+For the scenarios created, the U.S. average values were used as a reference. All the values we used were fake values so that we could simulate the results. Test data types such as valid test, invalid test and absence data were used.
 
 # **Test Automation instructions**
 
-Regarding automation, I created some executable tests thinking on the main purpose of the system: calculates household emissions and helps users reduce their gas emissions. All the tests automated could be identified by tag "automated" and to execute all of them, please see the instructions below.
+Regarding automation, I created some runnable tests thinking about the main goal of the system: to calculate the household emissions and help users to reduce their gas emissions. All automated tests have the tag "@automated" and to run them all please see the instructions below.
 
 The scripts were written using Gherkin language and the framework used was Cypress, as it is the framework I feel most comfortable working with.
 
@@ -23,14 +23,14 @@ The scripts were written using Gherkin language and the framework used was Cypre
 All the automated tests has a tag "automated". To execute these tests in your machine, will be necessary to follow the instructions below:
 
 1. Clone this repository
-2. Navigate to "cypress" folder and install the dependencies of the project, using the following command:`npm install`
+2. Navigate to the "cypress" folder and install the project dependencies, using the following command:`npm install`
 3. Execute the command `npm run cy:run` to run the tests as a headless mode
 
-ℹ️ Note: if you open the cypress interface using the `npm run cy:open` command, be careful because all the tests will be shown - automated and non-automated.
+> ℹ️ Note: if you open the cypress interface using the `npm run cy:open` command, be careful because all the tests will be shown - automated and non-automated.
 
-Features automated: getStarted.feature and e2e.feature
+Features automated: [Get Started](cypress/integration/getStarted.feature) and [E2E](cypress/integration/e2e.feature)
 
-### **Bugs founded**
+## **Bugs founded**
 The bugs found can be viewed [here](https://github.com/Maubh/qa-automation-challenge/issues)
 
 ## References
