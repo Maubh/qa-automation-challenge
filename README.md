@@ -30,8 +30,8 @@ All the automated tests has a tag "automated". To execute these tests in your ma
 
 Features automated: [Get Started](cypress/integration/getStarted.feature) and [E2E](cypress/integration/e2e.feature)
 
-## **Bugs founded**
-The bugs found can be viewed [here](https://github.com/Maubh/qa-automation-challenge/issues)
+## **Bugs identified**
+The bugs identified can be viewed [here](https://github.com/Maubh/qa-automation-challenge/issues)
 
 ## References
 
