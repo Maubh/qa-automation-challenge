@@ -6,7 +6,7 @@ Feature: Start Over
 Background:
 Given user navigate to the website
 
-
+@wip
 Scenario: Start over
 And insert the house information
 And user get started the flow

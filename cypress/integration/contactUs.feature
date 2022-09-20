@@ -6,7 +6,7 @@ Feature: Contact Us
 Background:
 Given user navigate to the website
 
-
+@wip
 Scenario: Get in touch with the company
 And navigates to the contact page
 And fills the form
